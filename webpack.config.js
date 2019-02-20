@@ -5,7 +5,7 @@ module.exports = {
 	entry: ['./src/js/main.js', './src/scss/index.scss'],
 	output: {
 		path: path.resolve(__dirname, 'assets'),
-		filename: 'js/bundle.js',
+		filename: 'bundle.js',
 	},
 	module: {
 		rules: [
@@ -15,7 +15,7 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							name: 'css/bundle.css',
+							name: 'bundle.css',
 						}
 					},
 					{

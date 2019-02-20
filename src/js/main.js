@@ -1,1 +1,1 @@
-console.log("webpack sass js");
+//Put here your JS
